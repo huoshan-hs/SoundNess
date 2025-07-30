@@ -30,12 +30,19 @@ soundnessup install
 soundness-cli generate-key --name my-key
 ```
 - Enter your password, save seed phrase and pub_key
-![image](https://github.com/user-attachments/assets/5a6fd956-5f98-427f-b752-245e27ff647e)
+<img width="1402" height="313" alt="image" src="https://github.com/user-attachments/assets/322da1c4-421d-4900-96ae-1491a443405b" />
+
 
 - Download & Save the `key_store.json` file
 <img width="1918" height="885" alt="image" src="https://github.com/user-attachments/assets/2051e67c-ceec-40d8-a676-719b6151bb25" />
 
+---
 
+## Import old key
+- If you have your old mneumonic saved you can import `key_store.json` file
+```bash
+soundness-cli import-key --name my-key --mnemonic "your 24 words phrase"
+```
 
 
 ## Register your Pub_Key
