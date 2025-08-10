@@ -2,7 +2,7 @@
 1. 访问 Github CodeSpace：[点击这里](https://github.com/codespaces/templates)
 2. 使用 Github 登录并选择 Blank 模板
 
-<img width="1402" height="313" alt="image" src="https://github.com/huoshan-hs/img/blob/main/Aegxwd8b_400x400.jpg?raw=true" />
+ ![Screenshot 2025-03-29 152907](https://github.com/user-attachments/assets/24f37631-3911-460c-a5a1-a792d51d6329)
 
 ## 运行命令
 ```bash
