@@ -1,4 +1,4 @@
-# SoundNess by @ColonyAirdrops
+# SoundNess by @ColonyAirdrops(中文译文版)
 
 ## 环境搭建
 1. 访问 Github CodeSpace：[点击这里](https://github.com/codespaces/templates)
