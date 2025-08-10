@@ -1,12 +1,12 @@
 # SoundNess by @ColonyAirdrops
 
-## Setup Environment
-1. Vist Github CodeSpace: [Here](https://github.com/codespaces/templates)
-2. Sign In with Github and Choose Blank Template
+## 环境搭建
+1. 访问 Github CodeSpace：[点击这里](https://github.com/codespaces/templates)
+2. 使用 Github 登录并选择 Blank 模板
 
  ![Screenshot 2025-03-29 152907](https://github.com/user-attachments/assets/24f37631-3911-460c-a5a1-a792d51d6329)
 
-## Run Command
+## 运行命令
 ```bash
 sudo apt update && sudo apt upgrade -y
 ```
@@ -19,7 +19,7 @@ source ~/.bashrc
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
-- Click Enter to use default
+- 按回车键使用默认选项
 ```bash
 source $HOME/.cargo/env
 ```
@@ -29,30 +29,30 @@ soundnessup install
 ```bash
 soundness-cli generate-key --name my-key
 ```
-- Enter your password, save seed phrase and pub_key
+- 输入你的密码，保存助记词和公钥
 <img width="1402" height="313" alt="image" src="https://github.com/user-attachments/assets/322da1c4-421d-4900-96ae-1491a443405b" />
 
 
-- Download & Save the `key_store.json` file
+- 下载并保存 `key_store.json` 文件
 <img width="1918" height="885" alt="image" src="https://github.com/user-attachments/assets/2051e67c-ceec-40d8-a676-719b6151bb25" />
 
 ---
 
-## Import old key
-- If you have your old mneumonic saved you can import `key_store.json` file
+## 导入旧密钥
+- 如果你保存了旧的助记词，可以通过以下命令导入 `key_store.json` 文件
 ```bash
-soundness-cli import-key --name my-key --mnemonic "your 24 words phrase"
+soundness-cli import-key --name my-key --mnemonic "你的24个助记词"
 ```
 
 
-## Register your Pub_Key
-1. Visit: [Discord](https://discord.com/invite/soundnesslabs)
-2. Go to testnet-access channel
-3. Type !access pub_key
+## 注册你的公钥
+1. 访问：[Discord](https://discord.com/invite/soundnesslabs)
+2. 进入 testnet-access 频道
+3. 输入 !access pub_key
 ![image](https://github.com/user-attachments/assets/65bd1d4c-7ba0-4a50-ad73-972a06766add)
 
 ---
-- Done !! Feel free to ask queries in telegram channel
+- 完成！！如有疑问欢迎在 Telegram 频道提问
 - Telegram - https://t.me/colonyairdrops
-- Twitter - https://x.com/colony_airdrops
+- 推特 - https://x.com/colony_airdrops
 - Youtube - https://www.youtube.com/@ColonyAirdrops
